@@ -41,8 +41,7 @@ header {
 
 }
 
-address {
-    font-style: normal;
+.info {
     margin-top: 15px;
 }
 
@@ -59,7 +58,7 @@ img {
 /* Utilities */
 .card {
     width: calc(100%/3 - 20px);
-    height: 105px;
+    height: 104px;
     background-color: black;
     float: left;
     margin: 10px;
