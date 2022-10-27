@@ -1,7 +1,7 @@
-/* 
-Color Palette 
+/*
+Color Palette
 fuchsia #e53170
-blue #6bc9eb 
+blue #6bc9eb
 */
 
 
@@ -28,7 +28,8 @@ h2, span {
 }
 
 header, .paragraph {
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 
 header {
@@ -37,6 +38,7 @@ header {
 
 .paragraph {
     margin-bottom: 3rem;
+
 }
 
 address {
@@ -56,15 +58,15 @@ img {
 
 /* Utilities */
 .card {
-    width: calc(100%/3 - 40px);
+    width: calc(100%/3 - 20px);
     height: 105px;
     background-color: black;
     float: left;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 .row {
-    margin-right: -80px;
+    margin: 0 -10px 5px -10px;
 }
 
 .row::after {
